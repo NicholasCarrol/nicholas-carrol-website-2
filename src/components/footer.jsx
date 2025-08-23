@@ -36,7 +36,7 @@ export default function FooterConfig() {
                     </svg>
                 </a>
             </div>
-            <div class="mb-2 mt-3">&copy; 2024 Nicholas Carrol. All rights reserved.</div>
+            <div class="mb-2 mt-3">&copy; 2025 Nicholas Carrol. All rights reserved.</div>
         </div>
     </footer>
     )
