@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 export default function NewsLetter() {
     console.log("Newsletter component loaded");
  }

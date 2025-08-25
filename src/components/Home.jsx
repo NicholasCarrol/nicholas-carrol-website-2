@@ -1,6 +1,9 @@
 import BookCover from '../assets/images/BookCover.png'
 import NewsLetter from '../clients/NewsLetter.jsx'
+import BeeHiivEmbed from './BeeHiive.jsx'
 export default function HomeConfig() {
+
+          const beehiivFormCode = `<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script><iframe src="https://subscribe-forms.beehiiv.com/5811c17c-df1f-4c9c-9a03-a68b87e2da0d" class="beehiiv-embed" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="width: 1011px; height: 544px; margin: 0; border-radius: 0px 0px 0px 0px !important; background-color: transparent; box-shadow: 0 0 #0000005c; max-width: 100%;"></iframe>`;
 
     return (
 
@@ -10,7 +13,7 @@ export default function HomeConfig() {
             <section class="bg-gray-950 flex flex-col items-center justify-center min-h-[30vh] text-center">
                 <h1 class="text-4xl md:text-6xl font-extrabold text-gray-200 mb-4">Darkness of Creation</h1>
                 <p class="text-lg md:text-xl text-gray-100 font-bold mb-4">“Quillan can do infinitely more than any creator before him.
-                    <span class="text-blue-900"> For good.</span> Or for <span class="text-red-700"><i>evil</i>.</span>”</p>
+                    <span class="text-blue-600"> For good.</span> Or for <span class="text-red-700"><i>evil</i>.</span>”</p>
                 <p class="text-lg text-gray-300 mb-1"><i>Coming October 1st 2025</i></p>
             </section>
 
@@ -64,7 +67,10 @@ export default function HomeConfig() {
             </section>
 
             {/* <!----------------News letter Section--------------------------> */}
-            <section class="bg-gray-100 flex flex-col items-center justify-center min-h-[20vh] text-center px-6 py-8">
+         <div class="flex w-full my-12 justify-center py-4 ">
+          <BeeHiivEmbed embedCode={beehiivFormCode} />
+        </div>
+            {/* <section class="bg-gray-100 flex flex-col items-center justify-center min-h-[20vh] text-center px-6 py-8">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Stay In Touch!</h2>
                 <p class="text-lg text-gray-700 mb-6">Subscribe to my newsletter to get the latest updates on book
                     releases, events, and exclusive content.</p>
@@ -80,7 +86,7 @@ export default function HomeConfig() {
                         </button>
                     </div>
                 </form>
-            </section>
+            </section> */}
         </>
 
     )
