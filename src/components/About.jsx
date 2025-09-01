@@ -11,9 +11,9 @@ export default function HeaderConfig() {
                     <img src={AboutMe} alt="AboutMe" class=" w-64 h-96 object-cover rounded-lg shadow-lg"></img>
 
                     <p class="flex justify-center items-start min-h-[20vh] px-1 text-left md:pr-36 text-lg text-gray-600">I'm Nicholas Carrol, an author who loves
-                        crafting stories that span genres, worlds, and characters, while building fascinating and thought-provoking stories.
+                        crafting thought-provoking stories that span genres, worlds, and characters.
                         When I'm not writing, you can find me reading almost any genre, practicing jiu-jitsu, or searching for adventures.
-                        Every experience, no matter how small, provides new fuel for new stories.
+                        Every experience, no matter how small, provides new fuel for new stories, so I always keep searching.
                         I would love to connect with you on any of my social media platforms. Or through my email list!</p>
                 </div>
             </section>

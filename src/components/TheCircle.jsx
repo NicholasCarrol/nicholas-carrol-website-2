@@ -8,8 +8,8 @@ export default function HeaderConfig() {
             <h2 class="text-3xl font-bold text-gray-800 mb-3">The world of 'Darkness of Creation'
             </h2>
             <p class="flex-1 flex-col justify-center items-start px-1 text-left text-xl text-gray-700 leading-relaxed md:pr-36">
-                The world of <i>Darkness of Creation</i> is known as <i>The Circle</i> colloquially among the peoples of the world.
-                It is a grounded fantasy world in a Classical era where the population has increased durastically and the sciences are fairly well understood.
+                The world of <i>Darkness of Creation</i> is known colloquially <i>The Circle</i> among the peoples of the world.
+                It is a grounded fantasy world in a high Classical era where the population has increased durastically and the sciences are fairly well understood.
                 The most different aspect from our world is the existence of creators.
             </p>
 
@@ -25,15 +25,14 @@ export default function HeaderConfig() {
                         Most creators are quite limited, being able to create nothing much of consequence physically. Typically they can create invisible forcefields that are quite weak, 
                         small bits of fire that are not very hot, blasts of air, bits of shadow, droplets of water, etc.
                         <br></br><br></br>
-                        'Powerful creators' are about twenty times as rare. Generally, the learned of the world consider it to be about one in 200,000 children.
+                        'Powerful creators' are about twenty times as rare. Generally, the learned of the world consider the chances to be about one in 200,000 children.
                         A powerful creator might be able to create great swathes of fire or shields that can stand up to prolonged stresses, 
                         or cures for certain diseases or ailments.
                         Some are even able to create life. That life, however, is often quite limited and unnatural looking. 
-                        The most common living creations are 'brutes'—troll like creations generally much larger than a man.
-                        These creations are often used in militaries to aid regular soldiers. 
-                        If the creator is especially powerful, their burte creations can be very difficult to kill.
                         <br></br><br></br>
-                        Around one in several million creators may be able to create portals or small stones, called conveyance stones,
+                        The most common living creations are 'brutes'—troll like creations generally much larger than a man.
+                        These creations are often used in militaries to aid regular soldiers and can be quite difficult to kill. 
+                        If the creator is especially powerful, they may be able to create portals or small stones, called conveyance stones,
                         that can teleport a limited number of people a limited distance.
                     </div>
                 </div>
@@ -53,15 +52,16 @@ export default function HeaderConfig() {
                             The printing press was invented in the year 3290, or some eighty years before the story starts.
                             Explosives are sometimes used in demolition work, but not often used in military settings.
                             This may be due to the focus on using powerful creators in the military instead of scientific advances.
-                            Mathematics has advanced past the point of calculus, and geometry is quite advanced.
-                            Scientists, though often poor and ignored, have advanced quite far in the understanding of physics and chemistry.
+                            Mathematics has advanced past the point of calculus and engineers are able to build quite complex structures.
+                            Scientists, though often poor and ignored, have advanced quite far in the understanding of physics, b and chemistry.
                             Medicine is also well advanced, but it was cures made by creators, most noticably Chawl who cured the plague
                             in the year 2602, that were responsible for the population boom.
                         </p>
                     </div>
-                    Horses are still the primary means of transportation and most cities are connected by well maintained roads.
-                    The science of shippmaking has advanced considerably. Ships can be quite large, much like galleons in our own Imperial age,
-                    but not much sea exploration has been done.
+                    Horses are still the primary means of transportation and most cities are connected by well maintained and traveled roads.
+                    The rich typically use carriages, increasing in luxury with wealth, while the poor often walk or use carts.
+                    The science of shippmaking has advanced considerably. Ships can be quite fast and large, 
+                    much like 17th century frigates or galleons in our own Imperial age, but not much sea exploration has been done.
                 </div>
             </section>
             <section class="text-left">
@@ -69,8 +69,9 @@ export default function HeaderConfig() {
                 <div class="text-lg text-gray-700 mb-4 leading-relaxed">
                     There are two main warring culture: The Kalceans, generally to the north and the Celjgeans generally to the south.
                     Both factions speak a language named after their culture. A series of wars over the last millennia have shifted the 'border' north and south.
-                    At the time of the first book, the Kalceans have dominance with the border far south, all the way to the Celjgean continent.
-                    <br></br><br></br>
+                    At the time of the first book, the Kalceans have dominance with the border far south, 
+                    all the way to the Celjgean continent with Atan Island being a sort of middle ground.
+                    <br></br>
                     Each culture has its own majority religion. Kalceans are Unuman, and the Celjgeans are Trisevtian.
 
                     <div class="flex gap-6 mt-4">
@@ -85,6 +86,10 @@ export default function HeaderConfig() {
                                 While beliefs on the subject vary across the Unuman religion, persecution of creators is very common.
                                 Priests are always male and are allowed to marry, but only a woman of virtue. 
                                 Polygamy is strictly prohibed among all Unumans and divorce is very difficult to obtain.
+                                Sexual intimacy, and often even touching, between unmarried people is strictly forbiden. 
+                                Priests caught breaking these rules are often defrocked and sometimes even punished in legal courts.
+                                Science is usually more valued among Unumans, who see the world as a place to be understood and mastered through reason instead of creating, 
+                                as opposed to Trisevtians who tend to look down upon science as a 'human' attempt to replace creators.
                             </p>
 
                         </section>
@@ -96,11 +101,12 @@ export default function HeaderConfig() {
                                 but they disagreed whether humans should be able to create. Ishtus thought no mortal should have such a power, 
                                 while the others wanted humans to be like them. A war ensued which is ongoing to this day. 
                                 This is why some humans can create but many cannot.
-                                For this reason, Trisevtians see creators as high beings that should be worshiped. The priesthood is entirely made up of creators, 
+                                For this reason, Trisevtians see creators as high beings that should be worshiped and respected. The priesthood is entirely made up of creators, 
                                 with the High Priest always being picked from the creator children of the previous High Priest. 
                                 There is significant debate about how the High Priest has so many creator children, despite the terrible odds. 
                                 Any creator of any sex can become a priest, but must go through very dangerous training, tests, and rituals. 
-                                Polygamy is not uncommon among priests (and is expected for the high priest), but is rare among the general Trisevtians, except for the richest.
+                                Polygamy is not uncommon among priests (and is expected of the high priest), but is rare among the general Trisevtians, except for the richest.
+                                Slavery is also quite common and accepted among Trisevtians.
                             </p>
 
                         </section>

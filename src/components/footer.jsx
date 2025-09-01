@@ -4,7 +4,7 @@ export default function FooterConfig() {
     <footer class="bg-white shadow mt-8">
         <div class="container mx-auto py-2 px-6 text-center text-gray-600 flex flex-col items-center">
             <div class="flex space-x-4">
-                <a href="https://x.com/" target="_blank" aria-label="X" class="hover:opacity-80 transition">
+                <a href="https://x.com/nicholas_c64547" target="_blank" aria-label="X" class="hover:opacity-80 transition">
                     {/* <!-- X (formerly Twitter) SVG, default black --> */}
                     <svg class="w-9 h-9 text-black" fill="currentColor" viewBox="0 0 24 24">
                         <path

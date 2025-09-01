@@ -21,8 +21,8 @@ export default function HeaderConfig({ setBody }) {
                         class="text-gray-100 px-8 py-3 font-semibold hover:text-red-500 transition w-full block text-center min-w-[120px]">ABOUT</button>
                     </li>
                     <li><button onClick={() => setBody(<TheCircle />)}
-                        class="text-gray-100 px-8 py-3 font-semibold hover:text-red-500 transition w-full block text-center min-w-[120px]">The
-                        Circle</button></li>
+                        class="text-gray-100 px-8 py-3 font-semibold hover:text-red-500 transition w-full block text-center min-w-[120px]">THE
+                        CIRCLE</button></li>
                 </ul>
             </nav>
             {/* Mobile Menu */}
@@ -30,7 +30,7 @@ export default function HeaderConfig({ setBody }) {
                 <ul class="space-y-2 text-gray-100 font-medium">
                     <li><button onClick={() => setBody(<HomeConfig />)} class="block hover:text-red-600">HOME</button></li>
                     <li><button onClick={() => setBody(<AboutConfig />)} class="block hover:text-red-600">ABOUT</button></li>
-                    <li><button onClick={() => setBody(<TheCircle />)} class="block hover:text-red-600">The Circle</button></li>
+                    <li><button onClick={() => setBody(<TheCircle />)} class="block hover:text-red-600">THE CIRCLE</button></li>
                 </ul>
             </div>
         </header>

@@ -1,5 +1,4 @@
 import BookCover from '../assets/images/BookCover.png'
-import NewsLetter from '../clients/NewsLetter.jsx'
 import BeeHiivEmbed from './BeeHiive.jsx'
 export default function HomeConfig() {
 
