@@ -1,12 +1,19 @@
 import HomeConfig from './Home.jsx'
 import AboutConfig from './About.jsx'
 import TheCircle from './TheCircle.jsx'
+import Logo from '../assets/images/BlueNC.jpg'
 export default function HeaderConfig({ setBody }) {
 
     return (
         <header class="bg-gray-700 shadow w-full">
-            <nav class="container mx-auto flex items-center justify-between py-4 px-6">
-                <div class="text-2xl font-bold text-gray-200">Nicholas Carrol</div>
+            <nav class="container mx-auto flex justify-between py-4 px-4 left-0 postiion-fixed">
+
+                <div class="flex items-center space-x-5 cursor-pointer left-0" onClick={() => setBody(<HomeConfig />)}>
+
+                    <img src={Logo} class="w-10 h-10 rounded-full" />
+                    <div class="text-2xl font-bold text-gray-200">Nicholas Carrol</div>
+                </div>
+
                 <button id="menu-btn" onClick={() => menuButton()} class="md:hidden text-gray-200 focus:outline-none">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
