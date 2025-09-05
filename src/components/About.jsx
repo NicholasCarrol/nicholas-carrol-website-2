@@ -12,7 +12,7 @@ export default function HeaderConfig() {
 
                     <p class="flex justify-center items-start min-h-[20vh] px-1 text-left md:pr-36 text-lg text-gray-600">I'm Nicholas Carrol, an author who loves
                         crafting thought-provoking stories that span genres, worlds, and characters.
-                        When I'm not writing, you can find me reading almost any genre, practicing jiu-jitsu, or searching for adventures.
+                        When I'm not writing, you can find me reading almost any genre, grappling on the jiu-jitsu mats, or searching for adventures.
                         Every experience, no matter how small, provides new fuel for new stories, so I always keep searching.
                         I would love to connect with you on any of my social media platforms. Or through my email list!</p>
                 </div>
