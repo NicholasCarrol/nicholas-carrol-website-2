@@ -28,7 +28,7 @@ export default function HomeConfig() {
                     <p class="text-lg md:text-xl text-gray-700 mb-8">A seasoned mercenary, a sheltered princess, and an orphan
                         creator must work together to stop Quillan, the most powerful creator the world has ever seen. If only
                         each of them didn't have their own secret ties to Quillan.</p>
-                    <a href="#amazonlinkgoeshere"
+                    <a href="https://www.amazon.com/dp/B0FPXT63C8"
                         class="bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 hover:text-red-500 transition">Purchase
                         on
                         Amazon</a>
