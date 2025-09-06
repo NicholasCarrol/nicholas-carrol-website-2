@@ -1,8 +1,9 @@
 {
-  "name": "my-app",
+  "name": "nicholas-carrol-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://www.nicholascarrol.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
