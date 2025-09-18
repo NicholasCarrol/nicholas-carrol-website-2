@@ -53,7 +53,7 @@ export default function HeaderConfig() {
                             Explosives are sometimes used in demolition work, but not often used in military settings.
                             This may be due to the focus on using powerful creators in the military instead of scientific advances.
                             Mathematics has advanced past the point of calculus and engineers are able to build quite complex structures.
-                            Scientists, though often poor and ignored, have advanced quite far in the understanding of physics, b and chemistry.
+                            Scientists, though often poor and ignored, have advanced quite far in the understanding of physics, biology, and chemistry.
                             Medicine is also well advanced, but it was cures made by creators, most noticably Chawl who cured the plague
                             in the year 2602, that were responsible for the population boom.
                         </p>
